@@ -1,0 +1,4 @@
+Hal yang dipelajari hari ini:
+- penjelasan tentang Git dan Github
+- mempelajari tentang web server
+- membahas contoh-contoh pemrograman web
