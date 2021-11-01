@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Minggu 4</title>
+  </head>
+  <body style="background-image: url(background.jpg); background-size: cover; background-attachment: fixed;">
+      <h1 style="text-align: center; color:azure;">FORMULIR PPDB JALUR ZONASI TAHUN 2021</h1>
+      <h2 style="color:lavender;">INFO PENDAFTARAN</h2>
+      <form action="m4.php" method="POST" name="ftugasform">
+      <table style="background-color: aliceblue; opacity: 80%;width: 100%; ">
+          <tr>
+              <td><label for="fnisn" style="font-weight: bold; width: 300;">NISN</label></td>
+              <td style="width: 300;"> :</td>
+              <td><input type="number" id="fnisn" name="fnisn" type="number" placeholder="Masukan NISN..." style="border: none; width: 500;" ></td>
+          </tr>
+          <tr>
+              <td><label for="fasalsekolah" style="font-weight: bold;">Asal Sekolah</label></td>
+              <td> :</td>
+              <td><input type="text" id="fasalsekolah" name="fasalsekolah" type="text"placeholder="Masukan Asal Sekolah..." style="border: none;"></td>
+          </tr>
+          <tr>
+            <td><label for="ftahunlulus" style="font-weight: bold;">Tahun Lulus</label></td>
+            <td> :</td>
+            <td><input type="date" id="ftahunlulus" placeholder="Tahun Lulus Anda Beserta Lampiran Fotocopy Ijazah"></td>
+            <td><input type="file" id="ftahunlulus" name="ftahunlulus" type="file"placeholder="Tahun Lulus Anda Beserta Lampiran Fotocopy Ijazah" style="border: none;"></td>
+          </tr>
+      </table>
+      <h2 style="color:lavender;">DATA CALON PESERTA</h2>
+      <div class="row" >
+      <table style="background-color:aliceblue; opacity: 80%; width: 100%;">
+        <tr>
+            <td width = "285"><label style ="font-weight: bold;"for="fnama" >Nama Lengkap</label></td>
+            <td width = "20"> :</td>
+            <td><input type="text" id="fnama" name="fnama" type="text"placeholder="Masukan Nama Lengkap..." style="border: none;"></td>
+        </tr>
+        <tr>
+            <td><label for="fnik" style="font-weight: bold;">NIK</label></td>
+            <td> :</td>
+            <td><input type="number" id="fnik" name="fnik" type="number" placeholder="Masukan NIK..." style="border: none;"></td>
+        </tr>
+        <tr>
+            <td><label for="ftempatlahir" style="font-weight: bold;">Tempat/ Tanggal Lahir</label></td>
+            <td> :</td>
+            <td><input type="text" id="ftempatlahir" name="ftempatlahir" type="text"placeholder="Tempat..." style="border: none;"></td>
+            <td><input type="date"id="ftempatlahir" name="ftempatlahir" type="date"></td>
+            <td><input type="number" id="ftempatlahir" name="ftempatlahir" type="text"placeholder="Umur..." style="border: none;"></td>
+            <td><input type="file"id="ftempatlahir" name="ftempatlahir" type="file"style="border: none;"></td>
+        </tr>
+        <tr>
+            <td><label for="fkelamin" style="font-weight: bold;">Jenis Kelamin</label></td>
+            <td> :</td>
+            <td><input type="radio" id="fkelamin" name="fkelamin" type="radio"> Laki-laki </td>
+            <td><input type="radio" id="fkelamin"name="fkelamin" type="radio"> Perempuan </td>
+        </tr>
+        <tr>
+            <td><label for="falamat" style="font-weight: bold;">Alamat</label></td>
+            <td> :</td>
+            <td><input type="text" id="falamat" name="falamat" type="text"placeholder="Masukan Alamat..."style="border: none;"></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="fdesa" style="font-weight: bold;">Desa / Kel.</label></td>
+            <td> :</td>
+            <td><input type="text" id="fdesa" name="fdesa" type="text"placeholder="Masukan Desa/Kel..."style="border: none;"></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="fkecamatan" style="font-weight: bold; text-align: right;">Kecamatan</label></td>
+            <td> :</td>
+            <td><input type="text" id="fkecamatan"name="fkecamatan" type="text" placeholder="Masukan Kecamatan..."style="border: none;"></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="fkabupaten" style="font-weight: bold;">Kabupaten</label></td>
+            <td> :</td>
+            <td><input type="text" id="fkabupaten"name="fkabupaten" type="text" placeholder="Masukan Kabupaten..."style="border: none;"></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="fprovinsi" style="font-weight: bold;">Provinsi</label></td>
+            <td> :</td>
+            <td><input type="text" id="fprovinsi" name="fprovinsi" type="text"placeholder="Masukan Provinsi..."style="border: none;"></td>
+        </tr>
+        <tr>
+            <td><label for="femail" style="font-weight: bold;">E-mail Aktif</label></td>
+            <td> :</td>
+            <td><input type="email" id="femail" name="femail" type="email"placeholder="Masukan E-mail..."style="border: none;"></td>
+        </tr>
+    </table>
+</div>
+      <h2 style="color:lavender;">DATA ORANG TUA</h2>
+      <div class="row">
+      <table style="background-color:aliceblue; opacity: 80%; width: 100%;">
+        <tr>
+            <td width="285"><label for="fkk" style="font-weight: bold;">Lampiran Kartu Keluarga</label></td>
+            <td width="20"> :</td>
+            <td><input type="file" id="fkk"name="fkk" type="file"></td>
+        </tr>
+        <tr>
+            <td><label for="fnokk" style="font-weight: bold;">Nomor Kartu Keluarga</label></td>
+            <td> :</td>
+            <td><input type="number" id="fnokk" name="fnokk" type="number"placeholder="Masukan Nomer Kartu Keluarga..."style="border: none;"></td>
+        </tr>
+        <tr>
+            <td><label for="fnamaayah" style="font-weight: bold;">Nama Ayah Kandung</label></td>
+            <td> :</td>
+            <td><input type="text" id="fnamaayah"name="fnamaayah" type="text" placeholder="Masukan Nama Ayah Kandung..." style="border: none;"></td>
+        </tr>
+        <tr>
+            <td><label for="fagamaayah"style="font-weight: bold;">Agama</label></td>
+            <td> :</td>
+            <td><input type="text" id="fagamaayah"name="fagamaayah" type="text"placeholder="Masukan Agama..." style="border: none;"></td>
+        </tr>
+        <tr>
+            <td><label for="fpekerjaanayah" style="font-weight: bold;">Pekerjaan</label></td>
+            <td> :</td>
+            <td><input type="text" id="fpekerjaanayah" name="fpekerjaanayah" type="text"placeholder="Masukan Pekerjaan..." style="border: none;"></td>
+        </tr>
+        <tr>
+            <td><label for="fnamaibu"style="font-weight: bold;">Nama Ibu Kandung</label></td>
+            <td> :</td>
+            <td><input type="text" id="fnamaibu" name="fnamaibu" type="text"placeholder="Masukan Nama Ibu Kandung..." style="border: none;"></td>
+        </tr>
+        <tr>
+            <td><label for="fagamaibu"style="font-weight: bold;">Agama</label></td>
+            <td> :</td>
+            <td><input type="text" id="fagamaibu" name="fagamaibu" type="text"placeholder="Masukan Agama..." style="border: none;"></td>
+        </tr>
+        <tr>
+            <td><label for="fpekerjaanibu" style="font-weight: bold;">Pekerjaan</label></td>
+            <td> :</td>
+            <td><input type="text" id="fpekerjaanibu" name="fpekerjaanibu" type="text"placeholder="Masukan Pekerjaan..." style="border: none;"></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="fdesaortu" style="font-weight: bold;">Desa / Kel.</label></td>
+            <td> :</td>
+            <td><input type="text" id="fdesaortu" name="fdesaortu" type="text"placeholder="Masukan Desa/Kel..."style="border: none;"></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="fkecamatanortu" style="font-weight: bold; text-align: right;">Kecamatan</label></td>
+            <td> :</td>
+            <td><input type="text" id="fkecamatanortu" name="fkecamatanortu" type="text"placeholder="Masukan Kecamatan..."style="border: none;"></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="fkabupatenortu" style="font-weight: bold;">Kabupaten</label></td>
+            <td> :</td>
+            <td><input type="text" id="fkabupatenortu" name="fkabupatenortu" type="text"placeholder="Masukan Kabupaten..."style="border: none;"></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="fprovinsiortu" style="font-weight: bold;">Provinsi</label></td>
+            <td> :</td>
+            <td><input type="text" id="fprovinsiortu" name="fprovinsiortu" type="text"placeholder="Masukan Provinsi..."style="border: none;"></td>
+        </tr>
+    </table>
+    </div>
+    <table style="width: 100%;">
+    <tr>
+        <td align="right"><input type="submit" name="fsubmit" value=" Kirim " style="font-size: medium;"></td>
+    </tr>
+</table>
+  </body>
+</form>
