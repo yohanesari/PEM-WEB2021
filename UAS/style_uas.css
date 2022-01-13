@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image:url(images/bg.webp);
+    background-size: 100%;
+}
+.header{
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+.topnav{
+    overflow: hidden;
+    background-color: #FF7F50;
+    height: 40px;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 8px;
+    margin-left: 80px;
+    padding-left: 20px;
+}
+.akun-btn-login{
+    margin-left: 1000px;
+}
+.btn-login a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'PT Sans Caption', sans-serif;
+
+}
+.buttonnav{
+        overflow: hidden;
+        background-color: #FF7F50;
+        padding: 5px 8px;
+        color:#f1f1f1;
+        margin-top: 10px;
+}
+.row{
+    margin-left: 50px;
+}
+.contact{
+    margin-left: 800px;
+    margin-top: -110px;
+}
+.unduh{
+    background-color: white;
+    width: 75%;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+#jdl-unduh {
+    margin-top: 30px;
+    margin-left: 100px;
+    padding-bottom: 5px;
+    font-family: 'Sen', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+.unduh-btn-container{
+    background-color: #00CF78;
+    width: 8%;
+    padding: 1%;
+    margin-left: 900px;
+    margin-top: -50px;
+    margin-bottom: 40px;
+    
+}
+.unduh-btn-container a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.slide{
+    color: white;
+    margin-left: 30px;
+}
+.berlangganan{
+    background-color: white;
+    width: 20%;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 5%;
+}
+.text-langganan{
+    background-color: #F45454 ;
+    width: 10%;
+    padding: 10px;
+    margin-top: -45px;
+    border-radius: 5%;
+    color: white;
+    margin-bottom: 50px;
+}
+.em-pw{
+    margin-left: 20px;
+}
+.btn-login{
+    background-color: white;
+    color: black;
+    margin-left: 300px;
+    padding: 10px;
+    width: 80px;
+    border-radius: 15%;
+    font-size: 12px;
+    font-family: 'Racing Sans One', cursive;
+}
+.create-btn-container{
+    width: 10%;
+}
+.musik {
+    margin-bottom: 100px;
+}
+.genre {
+    width: 90%;
+    padding: 20px;
+    margin: 75px;
+    background-color: white;
+}
+.covergenre {
+    width: 90%;
+    padding: 50px;
+    margin: 10px;
+}
+.gen-btn-container{
+    padding-left: 90px;
+}
+.musc-btn-container{
+    padding-left: 80px;
+}
+.muscgen-btn-container{
+    
+    padding-left: 300px;
+}
+.muscgen-btn{
+    width:300px;
+}
+#judul-home{
+    margin-left: 20px;
+}
+.column{
+    font-family: 'Sen', sans-serif;
+    color: white;
+}
+.login{
+    background-color: #C4C4C4;
+    width: 35%;
+    padding: 50px;
+    margin: 150px;
+    border-radius: 5%;
+}
+.fa {
+    padding: 20px;
+    font-size: 35px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+.fa-facebook {
+    background:#FF7F50 ;
+    color: white;
+  }
+  .fa-google {
+    background: #FF7F50;
+    color: white;
+  }
+  .fa-instagram {
+    background: #FF7F50;
+    color: white;
+  }
+  .fa-whatsapp {
+    background: #FF7F50;
+    color: white;
+  }

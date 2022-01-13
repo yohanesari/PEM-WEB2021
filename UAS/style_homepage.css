@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image:url(images/homepage.png);
+    background-size: 100%;
+}
+.header{
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+.topnav{
+    overflow: hidden;
+    background-color: #FF7F50;
+    height: 40px;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 8px;
+    margin-left: 80px;
+    padding-left: 20px; 
+}
+.logo {
+    margin-top: 10px;
+    margin-left: 900px;
+}
+.enter{
+    margin-left: 1000px;
+    
+}
+.kaset{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#radio{
+    margin-left: 700px;
+}
+.instrumen{
+    margin-top: -80px;
+    margin-left: 700px;
+}
+.judul-home{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 48px;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+#desc{
+    font-family: 'Recursive', sans-serif;
+    font-size: 24px;
+}
+.start{
+    background-color: white;
+    padding: 20px;
+    width: 8%;
+    margin-top: 100px;
+    margin-left: 90px;
+    margin-bottom: 100px;
+    border-radius: 15%;
+    font-size: 24px;
+    font-family: 'Racing Sans One', cursive;
+    
+  }
+  .start a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+  }
+.buttonnav{
+        overflow: hidden;
+        background-color: #FF7F50;
+        padding: 5px 8px;
+        color:#f1f1f1;
+        margin-top: 10px;
+}
+.row{
+    margin-left: 50px;
+}
+.contact{
+    margin-left: 800px;
+    margin-top: -110px;
+}

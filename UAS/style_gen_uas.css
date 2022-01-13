@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image:url(images/bg-home.jpg);
+    background-size: 100%;
+}
+.header{
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+.topnav{
+    overflow: hidden;
+    background-color: #FF7F50;
+    height: 40px;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 8px;
+    margin-left: 80px;
+    padding-left: 20px; 
+}
+.buttonnav{
+        overflow: hidden;
+        background-color: #FF7F50;
+        padding: 5px 8px;
+        color:#f1f1f1;
+        margin-top: 10px;
+}
+.row{
+    margin-left: 50px;
+}
+.contact{
+    margin-left: 800px;
+    margin-top: -110px;
+}
+.genre {
+    width: 90%;
+    padding: 20px;
+    margin: 75px;
+    margin-top: 5px;
+    background-color: white;
+}
+.covergenre {
+    width: 90%;
+    padding: 50px;
+    margin: 10px;
+}
+.gen-btn-container{
+    padding-left: 90px;
+}
+.musc-btn-container{
+    padding-left: 80px;
+}
+.lagugenre{
+    margin-bottom: 70px;
+}
+.muscgen-btn-container{
+    
+    padding-left: 300px;
+}
+.muscgen-btn{
+    width:300px;
+}
+.fa {
+    padding: 20px;
+    font-size: 35px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+.fa-facebook {
+    background:#FF7F50 ;
+    color: white;
+  }
+  .fa-google {
+    background: #FF7F50;
+    color: white;
+  }
+  .fa-instagram {
+    background: #FF7F50;
+    color: white;
+  }
+  .fa-whatsapp {
+    background: #FF7F50;
+    color: white;
+  }
